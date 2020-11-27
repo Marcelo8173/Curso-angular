@@ -1,1 +1,26 @@
 <h2>Curso de angular</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Imagem</th>
+            <th>Nome</th>
+            <th>preço</th>
+            <th>Codigo</th>
+            <th>Duração</th>
+            <th>Rating</th>
+            <th>Data de lançamento</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let curso of cursos">
+            <td>{{curso.imageUrl}}</td>
+            <td>{{curso.name}}</td>
+            <td>{{curso.price}}</td>
+            <td>{{curso.code}}</td>
+            <td>{{curso.duration}}</td>
+            <td>{{curso.rating}}</td>
+            <td>{{curso.realeaseDate}}</td>
+        </tr>
+    </tbody>
+</table>

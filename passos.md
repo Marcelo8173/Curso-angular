@@ -24,3 +24,4 @@
 - curso-list.component.ts - cria um componente
 - os componentes no angular são classes
 - sempre declarar dentro do app root
+- criando um loop *ngFor=""
