@@ -18,3 +18,9 @@
 ### binds
 
 <input [(ngModel)]="name" name="name" />
+
+### arquivos
+- o nome do arquivo é declarativo 
+- curso-list.component.ts - cria um componente
+- os componentes no angular são classes
+- sempre declarar dentro do app root
